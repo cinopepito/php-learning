@@ -27,3 +27,10 @@ function abc($a,$b){
 
 echo (abc(10,15));
 ?>
+<?php 
+echo rand(1,1000).'<br>';
+echo sqrt(100).'<br>';
+echo pow(2,4).'<br>';
+echo ceil(4.6).'<br>';
+echo round(4.5).'<br>';
+?>
