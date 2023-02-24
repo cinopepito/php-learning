@@ -6,8 +6,8 @@
 //date:23/02/2023
 
 //error reporting in php
-ini_set('error_reporting',E_ALL);
-echo $var = 'Alex'
+
+echo $var = 'Alex';
 $var2 = 'Billy';
 ?>
 <!DOCTYPE html>
@@ -19,6 +19,6 @@ $var2 = 'Billy';
     <title>Document</title>
 </head>
 <body>
-    <input type="text" value="<?php echo $text ?>">
+    <input type="text" value="<?php echo $var?>">
 </body>
 </html>
